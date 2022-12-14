@@ -1,0 +1,47 @@
+html,body{
+    margin: 0px
+}
+.container-fluid{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        width:100vw;
+        height:100vh;
+        background-color: rgb(165, 162, 162);
+        background-image:url('') ;
+
+}
+.login-box{
+    border-width:4px;
+    padding: 80px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 7px 7px 7px black;
+}
+.names{
+display: flex;
+flex-direction: column;
+align-items: center;
+    
+}
+#submit{
+    background-color: blue;
+    box-shadow: 7px 7px 7px black;
+    font-size: 120%;
+    padding:10px 30px;
+    border-radius: 25px;
+    margin:10px;
+    color: aliceblue;
+}
+#uname{
+    margin:10px;
+    
+}
+#psw{
+    margin:10px;
+}
+
+
+
+
+
