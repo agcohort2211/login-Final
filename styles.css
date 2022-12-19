@@ -7,16 +7,21 @@ html,body{
         align-items:center;
         width:100vw;
         height:100vh;
-        background-color: rgb(165, 162, 162);
-        background-image:url('') ;
-
+        background-size: 100% 100%;
+        background-image: linear-gradient(135deg,white,silver,black);
 }
 .login-box{
+    min-height: auto;
+    min-width: auto;
     border-width:4px;
     padding: 80px;
     border-radius: 20px;
     background-color: white;
     box-shadow: 7px 7px 7px black;
+    background-size: 100% 100%;
+    font-family: Lucida Handwriting;
+    background-image: linear-gradient(135deg,white,silver,black);
+    font-size: 2vw;
 }
 .names{
 display: flex;
@@ -25,13 +30,14 @@ align-items: center;
     
 }
 #submit{
-    background-color: blue;
+    background-color: rgba(100, 90, 90, 0.438);
     box-shadow: 7px 7px 7px black;
     font-size: 120%;
     padding:10px 30px;
     border-radius: 25px;
     margin:10px;
-    color: aliceblue;
+    font-family: Brush Script MT;
+    font-size: 2vw;
 }
 #uname{
     margin:10px;
@@ -40,6 +46,13 @@ align-items: center;
 #psw{
     margin:10px;
 }
+.slidebar{
+    width: auto;
+    height: auto;
+}
+#submit:hover{background-color: rgb(255, 240, 240);
+}
+
 
 
 
